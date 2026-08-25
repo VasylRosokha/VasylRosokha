@@ -5,12 +5,16 @@ Frontend / Full-Stack Developer based in Plzeň, Czech Republic. I build and dep
 ## 🛠 Tech Stack
 
 **Frontend:** React 18/19 · TypeScript · Tailwind CSS · Vite · React Router · React Hook Form  
-**Backend:** NestJS · Node.js · Express · Passport.js · JWT · REST APIs  
+**Backend:** NestJS · Node.js · Express · Python · Passport.js · JWT · REST APIs  
 **Databases:** PostgreSQL · MongoDB · TypeORM · Mongoose  
-**DevOps:** Docker · Docker Compose · Git · ESLint · Swagger/OpenAPI  
+**DevOps:** Docker · Docker Compose · Git · GitHub Actions · ESLint · mypy · Swagger/OpenAPI  
 **Deployment:** Render · Vercel · GitHub Pages
 
 ## 🚀 Projects
+
+### [Sheets MCP Server](https://github.com/VasylRosokha/sheets-mcp)
+Remote MCP server that lets an LLM read and write real Google Sheets — 9 tools across 3 sheet layouts, built to run against messy spreadsheets that were never designed to be machine-readable. 241 tests, `mypy --strict`, CI on every push.  
+`Python 3.12` `MCP SDK` `pydantic v2` `Starlette` `Google Sheets API` `Render`
 
 ### [Event Management System](https://github.com/VasylRosokha/event-management-system)
 Full-stack event platform with JWT auth, role-based access, calendar views, and Swagger API docs.  
@@ -22,15 +26,7 @@ Multi-page delivery app with shop browsing, cart system, coupons, order history,
 `React` `Express` `MongoDB` `Mongoose` `TypeScript` `Docker`  
 🔗 [Live Demo](https://delivery-app-0ho6.onrender.com)
 
-### [Planning Calendar](https://github.com/VasylRosokha/Planning-Calendar)
-Interactive order planning calendar with hierarchical tree structure and color-coded status tracking.  
-`React 19` `TypeScript` `Vite`  
-🔗 [Live Demo](https://vasylrosokha.github.io/Planning-Calendar/)
-
-### [Simple Coffee Listing](https://github.com/VasylRosokha/simple-coffee-listing)
-Responsive product listing with API data fetching and availability filtering.  
-`React 18` `TypeScript` `Vite`  
-🔗 [Live Demo](https://simple-coffee-listing-rho.vercel.app/)
+> Demos are hosted on Render's free tier — first load can take ~50 seconds while the service wakes up.
 
 ## 📫 Contact
 
